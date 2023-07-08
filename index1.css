@@ -1,0 +1,38 @@
+/* index.css */
+
+/* Body styles */
+body {
+    background: linear-gradient(to bottom right, #ff9a9e, #fad0c4);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container styles */
+  #txt-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Paragraph styles */
+  p {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #333333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover styles */
+  p:hover {
+    background-color: #ffcc00;
+    color: #ffffff;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
